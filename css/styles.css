@@ -81,6 +81,9 @@ body {
 
     .list {
         list-style: none;
+        display: flex;
+        gap: 24px;;
+
     }
 
     .link-list{
@@ -156,12 +159,18 @@ body {
       background-color: #404BBF;
     }
 
+    .work {
+      padding: 120px 0;
+
+    }
     .strategy{
       font-weight: 500;
       font-size: 20px;
       line-height: 1.2;
       letter-spacing: 0.02em;
-      color: var(--solutions)
+      color: var(--solutions);
+      margin-bottom: 8px;;
+      width: calc((100% - 72px) / 4);
     }
     .ourgoal {
       line-height: 1.5;
