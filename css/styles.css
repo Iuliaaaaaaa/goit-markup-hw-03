@@ -31,6 +31,26 @@ button { cursor: pointer;}
   margin-left: auto;
   margin-right: auto;
 }
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+}
+
+.address-list- {
+  display: flex;
+}
 
 body {
     font-family:"Roboto",sans-serif;
