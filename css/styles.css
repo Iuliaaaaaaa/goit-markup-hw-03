@@ -52,11 +52,6 @@ button { cursor: pointer;}
   padding: 24px 0 ;
 }
 
-.address-list- {
-  display: flex;
-  gap: 40px;
-}
-
 body {
     font-family:"Roboto",sans-serif;
     color: var(--address-color);
@@ -100,7 +95,8 @@ body {
         font-style: normal;
     }
     .address-list {
-    
+      display: flex;
+      gap: 40px;
     }
 
     .address-item{
