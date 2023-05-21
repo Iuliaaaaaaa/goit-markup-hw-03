@@ -170,7 +170,10 @@ body {
       letter-spacing: 0.02em;
       color: var(--solutions);
       margin-bottom: 8px;;
-      width: calc((100% - 72px) / 4);
+    }
+
+    .start {
+      width: : calc((100% - 72px) / 4);
     }
     .ourgoal {
       line-height: 1.5;
