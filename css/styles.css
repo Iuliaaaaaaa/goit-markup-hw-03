@@ -76,6 +76,7 @@ body {
 
   .link {
     text-decoration: none;
+    padding: 24px 0 ;
     
   }
 
@@ -97,6 +98,9 @@ body {
 
     .address {
         font-style: normal;
+    }
+    .address-list- {
+    
     }
 
     .address-item{
