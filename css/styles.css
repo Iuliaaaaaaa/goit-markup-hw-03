@@ -43,7 +43,6 @@ button { cursor: pointer;}
 .header-navigation {
   display: flex;
   align-items: center;
-  gap: 40px;
 }
 
 .header-list {
@@ -164,7 +163,7 @@ body {
       padding: 120px 0;
 
     }
-    .strategy{
+    .strategy {
       font-weight: 500;
       font-size: 20px;
       line-height: 1.2;
@@ -173,9 +172,6 @@ body {
       margin-bottom: 8px;;
     }
 
-    .start {
-      width: : calc((100% - 72px) / 4);
-    }
     .ourgoal {
       line-height: 1.5;
       letter-spacing: 0.02em;
