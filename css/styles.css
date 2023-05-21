@@ -43,6 +43,7 @@ button { cursor: pointer;}
 .header-navigation {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .header-list {
