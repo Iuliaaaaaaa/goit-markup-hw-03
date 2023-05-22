@@ -70,7 +70,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--text-color);
-    margin-right: 76px
+    margin-right: 76px;
+    display: inline-block;
     }
 
   .link {
@@ -263,8 +264,17 @@ body {
     }
 
     .footer {
-      background-color: var(--solutions)
+      background-color: var(--solutions);
+      padding: 100px 0;
     }
+
+    .footer-logo-first {
+      display: inline-block;
+      margin: 0 0 16px 0;}
+
+      .footer-text {
+        max-width: 264px;
+      }
 
     .studio {
       color: #f4f4fd;
