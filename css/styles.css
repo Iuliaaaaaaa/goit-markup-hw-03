@@ -49,7 +49,6 @@ button { cursor: pointer;}
   display: flex;
   margin-right: 332px;
   padding: 24px 0 ;
-  gap: 40px;
 }
 
 body {
@@ -72,7 +71,7 @@ body {
   .link {
     text-decoration: none;
     padding: 24px 0 ;
-    
+    gap: 40px;
   }
 
     span {
@@ -173,7 +172,7 @@ body {
        }
 
        .strategy-item {
-        width: calc((100% - 72px) / 4);
+        flex-basis: calc((100% - 72px) / 4);
        }
 
     .ourgoal {
