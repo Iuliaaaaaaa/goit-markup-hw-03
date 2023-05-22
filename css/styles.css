@@ -99,11 +99,12 @@ body {
 
     .nav-item:not(:last-child) {
       margin-right: 40px;
-   
     }
 
     .address {
+        display: flex;
         font-style: normal;
+        margin-left: auto;
     }
     .address-list {
       display: flex;
@@ -195,10 +196,6 @@ body {
       text-align: center;
       }
 
-    .our-goals {
-
-    }
-
     .ourgoal {
       line-height: 1.5;
       letter-spacing: 0.02em;
@@ -249,12 +246,13 @@ body {
       background-color: #FFFFFF;
     }
 
-    .mark- {
+    .mark {
       font-weight: 500;
       font-size: 20px;
       line-height: 1.2;
       letter-spacing: 0.02em;
       color: var(--solutions);
+      border-radius: 0px 0px 4px 4px;
     }
 
     .designer {
