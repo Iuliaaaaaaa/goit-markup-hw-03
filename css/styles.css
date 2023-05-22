@@ -191,6 +191,11 @@ body {
       text-align: center;
       text-transform: capitalize;
       color: var(--solutions);
+      margin-bottom: 72px;
+    }
+
+    .our-offers {
+      padding-bottom: 120px;
     }
 
     .team {
