@@ -43,11 +43,11 @@ button { cursor: pointer;}
 .header-navigation {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .header-list {
   display: flex;
-  gap: 40px;
   margin-right: 332px;
   padding: 24px 0 ;
 }
@@ -124,6 +124,10 @@ body {
       width: 1440px;
       padding: 188px 0 ;
       margin: 0 auto;
+    }
+
+    .visually-hidden {
+      
     }
 
     .title{
