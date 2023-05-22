@@ -97,9 +97,9 @@ body {
         color: var(--link-list-color);
     }
 
-    .nav-item{
-    display: flex;
-    gap: 40px;
+    .nav-item:not(:last-child) {
+      margin-right: 40px;
+   
     }
 
     .address {
