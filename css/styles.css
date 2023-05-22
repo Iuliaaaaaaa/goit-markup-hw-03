@@ -97,6 +97,11 @@ body {
         color: var(--link-list-color);
     }
 
+    .nav-item{
+    display: flex;
+    gap: 40px;
+    }
+
     .address {
         font-style: normal;
     }
