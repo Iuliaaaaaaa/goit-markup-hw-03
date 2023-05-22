@@ -147,7 +147,7 @@ body {
       overflow: hidden;
     }
 
-      .title{
+      .title {
       font-size: 56px;
       line-height: 1.07;
       text-align: center;
@@ -155,6 +155,8 @@ body {
       color: #ffffff;
       max-width: 496px;
       margin-bottom: 48px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .order{
@@ -181,8 +183,8 @@ body {
 
     .work {
       padding: 120px 0;
-
     }
+
     .strategy {
       font-weight: 500;
       font-size: 20px;
@@ -190,15 +192,16 @@ body {
       letter-spacing: 0.02em;
       color: var(--solutions);
       margin-bottom: 8px;
-       }
+      }
 
-       .strategy-item {
-        flex-basis: calc((100% - 72px) / 4);
-       }
+    .our-goals {
+
+    }
 
     .ourgoal {
       line-height: 1.5;
       letter-spacing: 0.02em;
+      width: 264px;
     }
 
     .whatwedo {
