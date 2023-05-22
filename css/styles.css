@@ -126,11 +126,7 @@ body {
       margin: 0 auto;
     }
 
-    .visually-hidden {
-      
-    }
-
-    .title{
+      .title{
       font-size: 56px;
       line-height: 1.07;
       text-align: center;
@@ -173,8 +169,12 @@ body {
       line-height: 1.2;
       letter-spacing: 0.02em;
       color: var(--solutions);
-      margin-bottom: 8px;;
-    }
+      margin-bottom: 8px;
+       }
+       
+       .strategy-item {
+        width: calc((100% - 72px) / 4);
+       }
 
     .ourgoal {
       line-height: 1.5;
