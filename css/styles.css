@@ -192,6 +192,7 @@ body {
       letter-spacing: 0.02em;
       color: var(--solutions);
       margin-bottom: 8px;
+      text-align: center;
       }
 
     .our-goals {
@@ -223,6 +224,7 @@ body {
 
     .team {
       background-color: #F4F4FD;
+      padding: 120px 0;
     }
 
     .team_list {
@@ -232,6 +234,15 @@ body {
       letter-spacing: 0.02em;
       text-transform: capitalize;
       color: var(--solutions);
+      margin-bottom: 72px;
+    }
+
+    .member {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 32px 16px;
+      width: 232px;
     }
 
     .mark {
@@ -250,6 +261,7 @@ body {
       font-size: 16px;
       line-height: 1.5 ;
       letter-spacing: 0.02em;
+      text-align: center;
     }
 
     .footer {
