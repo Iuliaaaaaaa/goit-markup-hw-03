@@ -217,6 +217,10 @@ body {
       padding-bottom: 120px;
     }
 
+    .products {
+      width: calc((100% - 48px) / 3);
+    }
+
     .team {
       background-color: #F4F4FD;
     }
