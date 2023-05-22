@@ -43,13 +43,13 @@ button { cursor: pointer;}
 .header-navigation {
   display: flex;
   align-items: center;
-  gap: 40px;
 }
 
 .header-list {
   display: flex;
   margin-right: 332px;
   padding: 24px 0 ;
+  gap: 40px;
 }
 
 body {
@@ -171,7 +171,7 @@ body {
       color: var(--solutions);
       margin-bottom: 8px;
        }
-       
+
        .strategy-item {
         width: calc((100% - 72px) / 4);
        }
