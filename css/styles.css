@@ -50,7 +50,8 @@ button { cursor: pointer;}
 }
 
 .header-list {
-  display: flex;
+  display: block;
+  margin-right: 332px;
   padding: 24px 0 ;
   gap: 40px;
 }
