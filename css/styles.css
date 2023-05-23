@@ -51,7 +51,6 @@ button { cursor: pointer;}
 
 .header-list {
   display: flex;
-  margin-right: 332px;
   padding: 24px 0 ;
   gap: 40px;
 }
@@ -290,8 +289,14 @@ body {
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.04em;
+      border: none;
+      width: 169px;
+      display: flex;
       color: var(--text-color);
       background-color: var(--button);
+      margin-left: auto;
+      margin-right: auto;
+    
     }
 
     .button-item:hover {
